@@ -2,11 +2,11 @@
 
 Discord CSS ""theme"" that hides annoying nitro ads + server boost upsells
 
-# installation
+## installation
 
-## [Vencord](https://github.com/Vendicated/Vencord)
+### [Vencord](https://github.com/Vendicated/Vencord)
 
-#### local method
+##### local method
 
 1. download goawaynitro.theme.css
 2. move the file to the Vencord theme folder:
