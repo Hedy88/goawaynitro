@@ -1,0 +1,36 @@
+/**
+ * @name goawaynitro
+ * @author rgb
+ * @version 1.0
+ * @description Discord CSS ""theme"" that hides annoying nitro ads + server boost upsells
+ * @source https://github.com/Hedy88/goawaynitro
+ */
+
+ /* remove nitro and shop buttons in Home */
+li[role="listitem"]:has(a[href="/store"]) {
+    display: none;
+}
+
+li[role="listitem"]:has(a[href="/shop"]) {
+    display: none;
+}
+
+/* remove promoted quests on active now */
+div[class^=wrapper]:has(div[class^=instructions]) {
+    display: none; 
+}
+
+/* remove boost progress bar */
+#channels > ul > li > div[data-list-item-id^="channels___boosts"] {
+    display: none; 
+}
+
+/* remove "get nitro" button (EMOJI POPOUT) */
+button[class^=shinyButton]:has(div[class*=premiumSubscribeButton]) { 
+    display: none; 
+}
+
+/* remove "powered by nitro" text (EMOJI POPOUT) */
+div[class^=nitroTextAndBadge] {
+    display: none; 
+}
