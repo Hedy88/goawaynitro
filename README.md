@@ -2,6 +2,8 @@
 
 Discord CSS ""theme"" that hides annoying nitro ads + server boost upsells
 
+# installation
+
 ## [Vencord](https://github.com/Vendicated/Vencord)
 
 #### local method
